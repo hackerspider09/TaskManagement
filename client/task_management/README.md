@@ -32,3 +32,15 @@ Follow these instructions to set up and run the frontend on your local machine.
     ```
     npm start
     ```
+
+```
+Admin User login cred ={
+    email : admin@gmail.com,
+    password : devhub123
+}
+
+junior user login cred ={
+    email :	junior@gmail.com,
+    password : prasad
+}
+```

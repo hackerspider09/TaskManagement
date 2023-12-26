@@ -50,9 +50,10 @@ const Auth = () => {
             }
         })
         .catch((error) => {
-            toast.update(toastId, { render: "something went wrong", type: "error", isLoading: false, autoClose:3000 })
-            window.location.reload()
+            toast.update(toastId, { render: error.response.data.detail, type: "error", isLoading: false, autoClose:3000 })
+            // window.location.reload()
             setSubmitBtnClick(false)
+            console.log(error)
                   
 
         })

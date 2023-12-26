@@ -52,3 +52,10 @@ Follow these instructions to set up and run the frontend on your local machine.
     ```
     python3 manage.py runserver
     ```
+
+```
+super user cred ={
+    email : admin@gmail.com,
+    password : devhub123
+}
+```
