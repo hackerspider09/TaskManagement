@@ -25,7 +25,7 @@ Follow these instructions to set up and run the frontend on your local machine.
    
 3. Create a virtual environment:
     ```
-    python -m venv env
+    python3 -m venv env
     ```
 
 4. Activate the virtual environment:
@@ -40,7 +40,7 @@ Follow these instructions to set up and run the frontend on your local machine.
 
 5. Install dependencies:
     ```
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
     ```
 
 6. Navigate to the server directory:
@@ -50,5 +50,5 @@ Follow these instructions to set up and run the frontend on your local machine.
 
 7. Start the Django server:
     ```
-    python manage.py runserver
+    python3 manage.py runserver
     ```
