@@ -1,10 +1,11 @@
 import axios from "axios"; 
 
-export const API_URL = "http://127.0.0.1:8000/"; 
+// export const API_URL = "http://127.0.0.1:8000/"; 
+export const API_URL = "https://prashkumar.pythonanywhere.com/"; 
 
 
 export const AxiosInstance = axios.create({
-    baseURL : "http://127.0.0.1:8000/",
+    baseURL : "https://prashkumar.pythonanywhere.com/",
    // withCredentials : true,
     Headers:{
         'content-type':'application/json',
