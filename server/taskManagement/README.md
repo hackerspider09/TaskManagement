@@ -4,9 +4,9 @@
 - Django
 
 
-## Client
+## Server
 
-This is the client-side (frontend) of the Project
+This is the server-side (backend) of the Project
 
 
 ### Getting Started
